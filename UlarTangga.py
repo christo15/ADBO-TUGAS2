@@ -1,6 +1,6 @@
-class UlarTangga:
-	def__init__(self,toIndex):
-		self.toIndex=toIndex
+class UlarTangga(object):
+	def __init__(self, toIndex):
+		self._toIndex = toIndex
+
 	def getToIndex(self):
-		return self.toIndex
-	
+		return self._toIndex
