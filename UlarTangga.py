@@ -1,6 +1,6 @@
-class Dice(object):
-	def __init__(self):
-		self._rnd = Random()
-
-	def roll(self):
-		return self._rnd.nextInt(6) + 1
+class UlarTangga:
+	def__init__(self,toIndex):
+		self.toIndex=toIndex
+	def getToIndex(self):
+		return self.toIndex
+	
