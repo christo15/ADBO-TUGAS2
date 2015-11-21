@@ -1,4 +1,6 @@
+import random
+
 class Board :
-  def__init__(self,pilihan):
+  def __init__(self,pilihan):
     for x in range(0,101): 
-      tile[x]=
+      tile=
