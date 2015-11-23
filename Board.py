@@ -55,7 +55,7 @@ class Board :
     def getPlayerTurn(self):
       return playerTurn
     
-    def isWin():
+    def isWin(self):
       if player[0].getCurIdx() == 100 ^| player[1].getCurIdx() == 100:
         if player[0].getCurIdx() == 100:
           print player[0].getName() + " is The Winner"
