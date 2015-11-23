@@ -29,3 +29,39 @@ class Board :
       ##Snake
       idx = randrange(2, 97)
       idxTo = random
+      
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ## 139
+    def getPlayer(self):
+      return self.player
+    
+    def getPlayerTurn(self):
+      return playerTurn
+    
+    def isWin():
+      if player[0].getCurIdx() == 100 ^| player[1].getCurIdx() == 100:
+        if player[0].getCurIdx() == 100:
+          print player[0].getName() + " is The Winner"
+        else:
+          print player[1].getName() + " is The Winner"
+        print "=================================CONGRATULATION!!!=================================="
+        return true
+      return false
+        
