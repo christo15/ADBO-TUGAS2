@@ -14,7 +14,7 @@ class main:
       print("=========== " + turn.getName() + " Turns Now============"+"\n")
       print("1. ROLL?"+"\n")
       print("2. EXIT?"+"\n")
-      board.Run(raw_input("1 ATAU 0"))
+      board.Run(raw_input("1 ATAU 2?"))
     else:
       print("=========== COMPUTER'S Turns Now============"+"\n")
       board.Run(1)
