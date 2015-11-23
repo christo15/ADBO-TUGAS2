@@ -12,3 +12,20 @@ class Board :
   def __init__(self,pilihan):
     for x in range(0,101): 
       tile[x]= Tile(x)
+    if  pilihan==1:
+      player[0]=User("P1", false)
+      player[1]=User("P2", false)
+    elif  pilhan==2:
+      player[0]=User("P1", false)
+      player[1]=User("Bot", true)
+    
+    tile[1].setUser(player[0])
+    tile[1].setUser(player[1])
+    
+    playerTurn = player[0]
+    
+    ##Snake and ladder
+    for x in range(0,5):
+      ##Snake
+      idx = randrange(2, 97)
+      idxTo = random
