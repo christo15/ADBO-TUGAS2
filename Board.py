@@ -98,4 +98,19 @@ class Board :
       
       if  x % 5 == 0:
         print "\n"
-  
+
+  def getPlayer(self):
+    return self.player
+    
+ def getPlayerTurn(self):
+    return playerTurn
+
+  def isWin(self):
+    if player[0].getCurIdx == 100 ^| player[1].getCurIdx == 100:
+      if player[0].getCurIdx == 100:
+        print player[0].getName + " is The Winner"
+      else:
+        print player[1].getName + " is The Winner"
+      print "=================================CONGRATULATION!!!=================================="
+      return true
+    return false
