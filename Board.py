@@ -56,11 +56,11 @@ class Board :
       return playerTurn
     
     def isWin(self):
-      if player[0].getCurIdx() == 100 ^| player[1].getCurIdx() == 100:
-        if player[0].getCurIdx() == 100:
-          print player[0].getName() + " is The Winner"
+      if player[0].getCurIdx == 100 ^| player[1].getCurIdx == 100:
+        if player[0].getCurIdx == 100:
+          print player[0].getName + " is The Winner"
         else:
-          print player[1].getName() + " is The Winner"
+          print player[1].getName + " is The Winner"
         print "=================================CONGRATULATION!!!=================================="
         return true
       return false
