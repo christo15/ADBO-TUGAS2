@@ -16,6 +16,6 @@ class main:
       print("2. EXIT?"+"\n")
       board.Run(raw_input("1 ATAU 0"))
     else:
-      print("=========== COMPUTER'S Turns Now============")
+      print("=========== COMPUTER'S Turns Now============"+"\n")
       board.Run(1)
     board.printMap()
