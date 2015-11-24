@@ -183,3 +183,23 @@ class Board():
           print( "=================================CONGRATULATION!!!==================================")
           return True
         return False
+        
+class main:
+    print("==========ular tangga==========="+"\n")
+    print("1. Player vs Player"+"\n")
+    print("2. Computer vs Player"+"\n")
+    pilihan = input("masukan pilihan: ")
+    board= Board(pilihan)
+    board.printMap()
+    while(board.isWin()==False):
+        if board.getPlayerTurn().isComputer()==False:
+            turn = board.getPlayerTurn()
+            print("=========== " + turn.getName() + " Turns Now============"+"\n")
+            print("1. ROLL?"+"\n")
+            print("2. EXIT?"+"\n")
+            board.run(input("1 ATAU 2?"))
+        else:
+            print("=========== COMPUTER'S Turns Now============"+"\n")
+            board.run("1")
+        board.printMap()
+
